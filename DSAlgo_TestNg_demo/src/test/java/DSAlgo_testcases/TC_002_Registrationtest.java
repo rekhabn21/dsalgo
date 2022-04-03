@@ -8,6 +8,7 @@ import static org.junit.Assert.assertTrue;
 
 import java.io.IOException;
 
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 import org.testng.annotations.BeforeTest;
 import pom.DsAlgo.Homepage;
@@ -48,12 +49,13 @@ public void user_opens_register_page() throws Throwable {
 		
 @BeforeTest
 public void beforeTest() throws IOException {
-	System.out.println("Before Test begins====>>> Open new chrome Browser");
+	System.out.println("Running " +this.getClass() + " >>> Open new chrome Browser");
 	TestBase_Dsalgo.Intialization();
+	//ChromeDriver d = new ChromeDriver();
 	driver.get(Testutils.Base_URL +Testutils.Base_path_register ) ;
 	System.out.println(driver.getTitle());
-	//assertEquals(driver.getTitle(), "Registration");
-	System.out.println("Registration starts " + driver.getTitle());	
+	assertEquals("Registration", driver.getTitle());
+	
 	}
 
 @AfterTest

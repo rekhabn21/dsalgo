@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import utils.Testutils;
+
 
 public class TestBase_Dsalgo {
 
@@ -20,7 +20,7 @@ public class TestBase_Dsalgo {
 	
 		try {
 		prop= new Properties();
-		FileInputStream FIS = new FileInputStream("C:\\Users\\rekha\\selenium-ws\\DS-Algodemo\\src\\main\\java\\config_Dsalgo\\config.properties");
+		FileInputStream FIS = new FileInputStream("src/main/java/config_Dsalgo/config.properties");
 		prop.load(FIS);
 	} 
 				catch(IOException e) {
@@ -36,7 +36,7 @@ public class TestBase_Dsalgo {
 			if (browserName.equals("chrome")) {
 				
 				System.setProperty("webdriver.chrome.driver",Testutils.chromepath);
-				driver= new ChromeDriver();	
+				driver = new ChromeDriver();	
 			}
 			else if (browserName.equals("FF")) {
 				
@@ -50,6 +50,7 @@ public class TestBase_Dsalgo {
 		driver.manage().timeouts().implicitlyWait(Testutils.Implicity_wait, TimeUnit.SECONDS);
 		
 		System.out.println("opens new chrome Browser");
+		
 		 	
 	}
 	

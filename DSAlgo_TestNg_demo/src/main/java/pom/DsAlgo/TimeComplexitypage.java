@@ -9,7 +9,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.google.common.util.concurrent.ExecutionError;
 
-public class TimeComplexitypage extends utils.TestBase_Dsalgo {
+import utils.DsAlgo.TestBase_Dsalgo;
+
+public class TimeComplexitypage extends TestBase_Dsalgo {
 
 	public TimeComplexitypage() throws IOException {
 		super();

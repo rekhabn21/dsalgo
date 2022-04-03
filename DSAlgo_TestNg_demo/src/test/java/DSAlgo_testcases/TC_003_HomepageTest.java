@@ -12,8 +12,9 @@ import pom.DsAlgo.Loginpage;
 import pom.DsAlgo.RegisterPage;
 import pom.DsAlgo.portalhomepage;
 import pom.DsAlgo.userloggedinpage;
-import utils.Testutils;
+
 import utils.DsAlgo.TestBase_Dsalgo;
+import utils.DsAlgo.Testutils;
 
 public class TC_003_HomepageTest extends TestBase_Dsalgo {
 

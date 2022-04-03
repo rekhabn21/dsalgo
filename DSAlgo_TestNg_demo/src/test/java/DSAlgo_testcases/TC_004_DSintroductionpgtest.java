@@ -8,8 +8,9 @@ import pom.DsAlgo.DSintroductionpage;
 import pom.DsAlgo.Homepage;
 import pom.DsAlgo.Loginpage;
 import pom.DsAlgo.PracticeQuestionspage;
-import utils.Testutils;
+
 import utils.DsAlgo.TestBase_Dsalgo;
+import utils.DsAlgo.Testutils;
 
 public class TC_004_DSintroductionpgtest extends TestBase_Dsalgo {
 

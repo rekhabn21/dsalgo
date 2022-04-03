@@ -11,8 +11,8 @@ import org.testng.annotations.Test;
 import pom.DsAlgo.Homepage;
 import pom.DsAlgo.Loginpage;
 import pom.DsAlgo.queuepage;
-import utils.Testutils;
 import utils.DsAlgo.TestBase_Dsalgo;
+import utils.DsAlgo.Testutils;
 
 public class TC_006_Queuepagetests extends TestBase_Dsalgo {
 	public TC_006_Queuepagetests() throws IOException {
