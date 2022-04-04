@@ -9,7 +9,13 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.google.common.util.concurrent.ExecutionError;
 
-public class PracticeQuestionspage extends utils.TestBase_Dsalgo
+import utils.DsAlgo.TestBase_Dsalgo;
+
+
+
+
+
+public class PracticeQuestionspage extends TestBase_Dsalgo
 {
 
 	public PracticeQuestionspage() throws IOException {

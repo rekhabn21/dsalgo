@@ -3,17 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DSAlgo_testcases.TC_004_DSintroductionpgtest">
+      <class name="DSAlgo_testcases.TC_008DDT_Registrationtests">
         <methods>
-          <include name="Dspagetest1"/>
           <include name="afterTest"/>
-          <include name="Dspagetest2"/>
           <include name="beforeTest"/>
-          <include name="signinuser"/>
-          <include name="Datastructure_intro"/>
-          <include name="Dspagetest3"/>
+          <include name="registration"/>
         </methods>
-      </class> <!-- DSAlgo_testcases.TC_004_DSintroductionpgtest -->
+      </class> <!-- DSAlgo_testcases.TC_008DDT_Registrationtests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

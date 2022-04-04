@@ -1,49 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DSAlgo_testcases.TC_002_Registrationtest">
+      <class name="DSAlgo_testcases.TC_008DDT_Registrationtests">
         <methods>
-          <include name="user_opens_register_page"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
+          <include name="registration"/>
         </methods>
-      </class> <!-- DSAlgo_testcases.TC_002_Registrationtest -->
-      <class name="DSAlgo_testcases.TC_005_Stackpagetest">
-        <methods>
-          <include name="Stackpagefunction1"/>
-          <include name="Stackpagefunction4"/>
-          <include name="Stackpagefunction2"/>
-          <include name="beforeTest"/>
-          <include name="Stackpagefunction5"/>
-          <include name="Stackpagefunction3"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- DSAlgo_testcases.TC_005_Stackpagetest -->
-      <class name="DSAlgo_testcases.TC_006_Queuepagetests">
-        <methods>
-          <include name="quepagegetstartedfunction"/>
-          <include name="beforeTest"/>
-          <include name="afterTest"/>
-          <include name="quepagefunction4"/>
-          <include name="quepagefunction3"/>
-          <include name="quepagefunction"/>
-          <include name="quepagefunction2"/>
-          <include name="quepagefunction5"/>
-        </methods>
-      </class> <!-- DSAlgo_testcases.TC_006_Queuepagetests -->
-      <class name="DSAlgo_testcases.TC_004_DSintroductionpgtest">
-        <methods>
-          <include name="Dspagetest1"/>
-          <include name="afterTest"/>
-          <include name="Dspagetest2"/>
-          <include name="beforeTest"/>
-          <include name="signinuser"/>
-          <include name="Datastructure_intro"/>
-          <include name="Dspagetest3"/>
-        </methods>
-      </class> <!-- DSAlgo_testcases.TC_004_DSintroductionpgtest -->
+      </class> <!-- DSAlgo_testcases.TC_008DDT_Registrationtests -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

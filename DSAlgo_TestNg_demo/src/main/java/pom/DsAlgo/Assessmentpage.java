@@ -6,7 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 
-public class Assessmentpage extends utils.TestBase_Dsalgo {
+import utils.DsAlgo.TestBase_Dsalgo;
+
+public class Assessmentpage extends TestBase_Dsalgo {
 
 	public  Assessmentpage() throws IOException {
 		super();
